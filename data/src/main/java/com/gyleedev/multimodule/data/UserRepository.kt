@@ -1,11 +1,8 @@
 package com.gyleedev.multimodule.data
 
+import com.gyleedev.multimodule.domain.UserRepository
 import javax.inject.Inject
 
-interface UserRepository {
-
-    fun getUserId(): String?
-}
 
 internal class UserRepositoryImpl @Inject constructor() : UserRepository {
 
