@@ -21,4 +21,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "MultiModule"
 include(":app")
- 
+include(":ui:home")
+include(":ui:feed")
