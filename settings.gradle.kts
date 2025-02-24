@@ -23,3 +23,5 @@ rootProject.name = "MultiModule"
 include(":app")
 include(":ui:home")
 include(":ui:feed")
+include(":data")
+include(":domain")
