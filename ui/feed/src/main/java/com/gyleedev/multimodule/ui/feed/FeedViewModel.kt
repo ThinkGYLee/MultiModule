@@ -10,6 +10,9 @@ class FeedViewModel @Inject constructor(userCase: GetUserUserCase) : ViewModel()
 
     init {
 
-        val userId = userCase()
+        val userId = userCase().also { println(it) }
+
     }
+
+    private val a = "bb"
 }

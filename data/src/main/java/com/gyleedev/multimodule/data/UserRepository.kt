@@ -7,6 +7,6 @@ import javax.inject.Inject
 internal class UserRepositoryImpl @Inject constructor() : UserRepository {
 
     override fun getUserId(): String? {
-        return null
+        return "pp"
     }
 }
